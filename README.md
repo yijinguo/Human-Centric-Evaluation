@@ -30,10 +30,12 @@ _Can foundation models satisfy people's demands?_
     <a href="https://arxiv.org/abs/2506.01793"><strong>Paper</strong></a> | <a href="https://github.com/yijinguo/Human-Centric-Evaluation"><strong>Github</strong></a> | <a href="https://drive.google.com/drive/folders/1XO2BBDn-bQI-IYGISSOmRb6GFklNG7Vg?dmr=1&ec=wgc-drive-globalnav-goto"><strong>Data</strong></a>   
   </div>
 
-  
+
   <div style="width: 100%; text-align: center; margin:auto;">
         <img style="width:100%" src="spotlight.png">
   </div>
+
+<div align="left">
 
 The traditional model-centric evaluation focuses on the quiz performance of foundation models, which is hard to reflect human experience. Therefore, we propose the **Human-Centric Evaluation** framework to better align the evaluation of foundation models with the quality of real human experience.
 
