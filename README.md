@@ -4,6 +4,7 @@
     <a href="https://arxiv.org/abs/2506.01793"><img src="https://img.shields.io/badge/Arxiv-2506.01793-blue"/></a>
   </div>
   <h1>Human-Centric Evaluation for Foundation Models</h1>
+  
 _Can foundation models satisfy people's demands?_
   <div>
     <a href="https://yijinguo.github.io/" target="_blank">Yijin Guo</a><sup>1,2</sup>,
