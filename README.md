@@ -40,9 +40,9 @@ _Can foundation models satisfy people's demands?_
 The traditional model-centric evaluation focuses on the quiz performance of foundation models, which is hard to reflect human experience. Therefore, we propose the **Human-Centric Evaluation** framework to better align the evaluation of foundation models with the quality of real human experience.
 
 ## Construction
-  <div style="width: 100%; text-align: center; margin:auto;">
-        <img style="width:100%" src="framework.png">
-  </div>
+<div style="width: 100%; text-align: center; margin:auto;">
+    <img style="width:100%" src="framework.png">
+</div>
 Participants choose a task based on their major and interests, then interact freely with a foundation model for 20 minutes to complete it, and finally complete a questionnaire to assess the model's performance.
 
 ## Glance at HCE Results
@@ -52,33 +52,15 @@ Here are  the subjective leaderboard according to the experimental results. (a) 
 <div style="width: 100%; text-align: center; margin:auto;">
     <img style="width:100%" src="results/leaderboard.png">
 </div>
-<div style="display: flex; flex-wrap: wrap; justify-content: space-around; text-align: center; margin: 20px 0;">
-    <div style="flex: 0 0 35%; margin: 10px 0;">
-        <img style="width: 100%; max-width: 300px;" src="results/results_language.png">
-        <div style="margin-top: 8px; font-weight: bold;">Languages</div>
-    </div>
-    <div style="flex: 0 0 35%; margin: 10px 0;">
-        <img style="width: 100%; max-width: 300px;" src="results/results_problem.png">
-        <div style="margin-top: 8px; font-weight: bold;">Problem Type</div>
-    </div>  
+
+<div style="width: 80%; text-align: center; margin:auto;">
+    <img style="width:100%" src="results/language_problem_results.png">
 </div>
 
 ## Statistic Analysis
 We need to validate the rationality of the experimental design through statistical analysis. In our work, we use **Pearson correlation analysis** to verify the validity of the evaluation dimensions.
 To conduct statistical analysis, we selected a small number of tasks and performed a large number of trials to obtain sample data for validating the experimental design. 
 The Pearson correlation coefficient is calculated based on the covariance and standard deviations of two variables. Our results for Pearson Analysis are as below:
-
-<div style="display: flex; flex-wrap: wrap; justify-content: space-around; text-align: center; margin: 20px 0;">
-    <div style="flex: 0 0 30%; margin: 10px 0;">
-        <img style="width: 100%; max-width: 300px;" src="appendix/pearson_ds_en.png">
-        <div style="margin-top: 8px; font-weight: bold;">DeepSeek</div>
-    </div>
-    <div style="flex: 0 0 30%; margin: 10px 0;">
-        <img style="width: 100%; max-width: 300px;" src="appendix/pearson_openai_en.png">
-        <div style="margin-top: 8px; font-weight: bold;">OpenAI</div>
-    </div>  
-    <div style="flex: 0 0 30%; margin: 10px 0;">
-        <img style="width: 100%; max-width: 300px;" src="appendix/pearson_grok_en.png">
-        <div style="margin-top: 8px; font-weight: bold;">Grok</div>
-    </div>
+<div style="width: 100%; text-align: center; margin:auto;">
+    <img style="width:100%" src="appendix/pearson_results.png">
 </div>
